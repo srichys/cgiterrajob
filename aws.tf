@@ -3,7 +3,7 @@ resource "aws_instance" "srini-isntance" {
     instance_type = "t2.micro"
     count =  1
     tags = {
-        name = "srini-instance1"
+        Name = "srini-instance2"
     }
   
 }
